@@ -1,0 +1,28 @@
+{
+    "name": "mern-authentication",
+    "version": "1.0.0",
+    "description": "mern Authentication system",
+    "keywords": [
+        "Authentication",
+        "mern-auth",
+        "token",
+        "based",
+        "authenticatn",
+        "nodemailer"
+    ],
+    "license": "ISC",
+    "author": "Dharmendra Mandal",
+    "type": "module",
+    "main": "server.js",
+    "scripts": {
+        "server": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "dotenv": "^18.0.10",
+        "express": "^5.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    }
+}
