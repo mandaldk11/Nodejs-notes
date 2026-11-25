@@ -1,10 +1,13 @@
 import 'dotenv/config'
 import express from 'express'
 import userRouter from './routes/userRoutes.js';
+import dbConnect from './services/dbConnection.js';
 
 
 const app = express();
 const PORT = process.env.PORT || 8001
+    // database connection-
+dbConnect()
     // middleware-
 app.use(express.json())
     // path/routes-
